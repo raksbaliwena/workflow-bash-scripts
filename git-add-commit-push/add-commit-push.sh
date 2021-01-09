@@ -34,7 +34,7 @@ echo "Are you sure you want to commit and push to $branchName branch with $commi
         	echo "********** Committing to $branchName **********"
 			git commit -m "$commitMessage"  
             echo
-            git push origin $branchName
+            git push -u origin $branchName
             echo  
             ;;  
         No|no|N|n)  
