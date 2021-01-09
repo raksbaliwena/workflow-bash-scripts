@@ -1,7 +1,7 @@
 #! /bin/bash
 # Bash script to start kaios WebIDE in linux
 
-echo "---------------Kaios WebIDE starter----------------"
+echo "*************** Kaios WebIDE starter ***************"
 touch $HOME/.location.txt
 
 if [ -s "$HOME/.location.txt" ] 
